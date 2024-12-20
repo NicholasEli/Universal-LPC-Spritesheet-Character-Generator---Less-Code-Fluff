@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+		<title>Universal LPC Sprite Sheet Character Generator</title>
+		<style>
+			main {
+				display: flex;
+			}
+
+			form {
+				width: 300px;
+			}
+
+			canvas {
+				align-self: flex-start;
+				background: lightblue;
+			}
+
+			[data-category]:not([data-category='sex'], [data-category='body']),
+			li.category,
+			[data-sex] {
+				display: none;
+			}
+
+			form.male [data-category],
+			form.female [data-category],
+			form.male li.category,
+			form.female li.category {
+				display: block;
+			}
+
+			form.male [data-sex='male'] {
+				display: block;
+			}
+
+			form.female [data-sex='female'] {
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Character Generator</h1>
+		</header>
+		<main>
+			<form data-el="customizer-form" id="customizeChar">
+				<input type="submit" value="Save Result As PNG" />
+			</form>
+			<canvas width="832" height="1344"></canvas>
+		</main>
+		<script type="module" src="script.js"></script>
+	</body>
+</html>
