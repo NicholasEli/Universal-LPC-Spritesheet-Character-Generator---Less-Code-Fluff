@@ -6,6 +6,8 @@ This is a backwards engineered version of the LPC spritesheet and is incomplete.
 
 Meat and potatoes is in `script.js`
 
+Added a more consistent data pattern to sprite references.
+
 ### Description
 
 Based on [Universal LPC Spritesheet](https://github.com/jrconway3/Universal-LPC-spritesheet).
