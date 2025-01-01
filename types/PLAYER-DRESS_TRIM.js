@@ -1,0 +1,1 @@
+const PLAYER_DRESS_TRIM={}; export default PLAYER_DRESS_TRIM;

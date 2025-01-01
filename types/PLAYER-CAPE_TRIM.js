@@ -1,0 +1,1 @@
+const PLAYER_CAPE_TRIM={}; export default PLAYER_CAPE_TRIM;

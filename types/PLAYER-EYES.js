@@ -1,0 +1,40 @@
+const PLAYER_EYES={
+  "MALE": {
+    "EYES_BLUE": "eyes/human/adult/blue.png",
+    "EYES_BROWN": "eyes/human/adult/brown.png",
+    "EYES_GRAY": "eyes/human/adult/gray.png",
+    "EYES_GREEN": "eyes/human/adult/green.png",
+    "EYES_ORANGE": "eyes/human/adult/orange.png",
+    "EYES_PURPLE": "eyes/human/adult/purple.png",
+    "EYES_RED": "eyes/human/adult/red.png",
+    "EYES_YELLOW": "eyes/human/adult/yellow.png",
+    "CYCLOPS_EYES_CYCLOPS": "eyes/cyclops/adult/cyclops.png",
+    "CYCLOPS_EYES_CYCLOPS_BLUE": "eyes/cyclops/adult/cyclops_blue.png",
+    "CYCLOPS_EYES_CYCLOPS_BROWN": "eyes/cyclops/adult/cyclops_brown.png",
+    "CYCLOPS_EYES_CYCLOPS_GRAY": "eyes/cyclops/adult/cyclops_gray.png",
+    "CYCLOPS_EYES_CYCLOPS_GREEN": "eyes/cyclops/adult/cyclops_green.png",
+    "CYCLOPS_EYES_CYCLOPS_ORANGE": "eyes/cyclops/adult/cyclops_orange.png",
+    "CYCLOPS_EYES_CYCLOPS_PURPLE": "eyes/cyclops/adult/cyclops_purple.png",
+    "CYCLOPS_EYES_CYCLOPS_RED": "eyes/cyclops/adult/cyclops_red.png",
+    "CYCLOPS_EYES_CYCLOPS_YELLOW": "eyes/cyclops/adult/cyclops_yellow.png"
+  },
+  "FEMALE": {
+    "EYES_BLUE": "eyes/human/adult/blue.png",
+    "EYES_BROWN": "eyes/human/adult/brown.png",
+    "EYES_GRAY": "eyes/human/adult/gray.png",
+    "EYES_GREEN": "eyes/human/adult/green.png",
+    "EYES_ORANGE": "eyes/human/adult/orange.png",
+    "EYES_PURPLE": "eyes/human/adult/purple.png",
+    "EYES_RED": "eyes/human/adult/red.png",
+    "EYES_YELLOW": "eyes/human/adult/yellow.png",
+    "CYCLOPS_EYES_CYCLOPS": "eyes/cyclops/adult/cyclops.png",
+    "CYCLOPS_EYES_CYCLOPS_BLUE": "eyes/cyclops/adult/cyclops_blue.png",
+    "CYCLOPS_EYES_CYCLOPS_BROWN": "eyes/cyclops/adult/cyclops_brown.png",
+    "CYCLOPS_EYES_CYCLOPS_GRAY": "eyes/cyclops/adult/cyclops_gray.png",
+    "CYCLOPS_EYES_CYCLOPS_GREEN": "eyes/cyclops/adult/cyclops_green.png",
+    "CYCLOPS_EYES_CYCLOPS_ORANGE": "eyes/cyclops/adult/cyclops_orange.png",
+    "CYCLOPS_EYES_CYCLOPS_PURPLE": "eyes/cyclops/adult/cyclops_purple.png",
+    "CYCLOPS_EYES_CYCLOPS_RED": "eyes/cyclops/adult/cyclops_red.png",
+    "CYCLOPS_EYES_CYCLOPS_YELLOW": "eyes/cyclops/adult/cyclops_yellow.png"
+  }
+}; export default PLAYER_EYES;

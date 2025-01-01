@@ -1,0 +1,1 @@
+const PLAYER_DRESS={}; export default PLAYER_DRESS;
