@@ -4,6 +4,8 @@ LPC SPritesheet sources compiled into individual JSON objects. Made because it w
 
 See `compile-types.js` that was used for the original repo to parse "sheet_definitions" directory into gendered references or an accessory item.
 
+`frames.json` should suffice for most directional references
+
 --
 
 Originally based on [LPC Character generator](https://github.com/Gaurav0/Universal-LPC-Spritesheet-Character-Generator).
