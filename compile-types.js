@@ -38,6 +38,10 @@ fs.readdir(folder, (err, files) => {
 			});
 		}
 
+		/**
+		 * Will need extra cases for layers past 1
+		 */
+
 		if (index == files.length - 1) {
 			console.log(TYPES['ACCESSORY']);
 
