@@ -1,7 +1,12 @@
 /**
+ * This is meant to be placed in the base directory of the LPC Sprite Sheet repo
+ * https://github.com/sanderfrenken/Universal-LPC-Spritesheet-Character-Generator
+ *
+ * run with "node compile-types.js" for output
+ *
  * TODO
  * Make write file loop async - occassionaly a race condition happens causing JSON
- * to malform in longer files
+ * to malform in longer files due to race conditions
  */
 
 const folder = './sheet_definitions';
