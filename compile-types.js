@@ -1,3 +1,9 @@
+/**
+ * TODO
+ * Make write file loop async - occassionaly a race condition happens causing JSON
+ * to malform in longer files
+ */
+
 const folder = './sheet_definitions';
 const fs = require('fs');
 
@@ -12,6 +18,7 @@ fs.readdir(folder, (err, files) => {
 		const type = obj.type_name.toUpperCase().replaceAll(' ', '_');
 		if (!TYPES[type]) TYPES[type] = {};
 
+		/** Male based sprite references **/
 		if (obj.layer_1 && obj.layer_1.male) {
 			if (!TYPES[type].MALE) TYPES[type].MALE = {};
 
@@ -25,6 +32,7 @@ fs.readdir(folder, (err, files) => {
 			});
 		}
 
+		/** Feale based sprite references **/
 		if (obj.layer_1 && obj.layer_1.female) {
 			if (!TYPES[type].FEMALE) TYPES[type].FEMALE = {};
 
@@ -38,13 +46,12 @@ fs.readdir(folder, (err, files) => {
 			});
 		}
 
+		/** Will need extra cases for layers past 1 **/
+
 		/**
-		 * Will need extra cases for layers past 1
+		 * Write file(s)
 		 */
-
 		if (index == files.length - 1) {
-			console.log(TYPES['ACCESSORY']);
-
 			for (let type in TYPES) {
 				const type_path = './types/PLAYER-' + type + '.js';
 				const js =
