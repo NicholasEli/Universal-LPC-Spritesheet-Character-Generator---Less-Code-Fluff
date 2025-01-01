@@ -1,7 +1,6 @@
-LPC Spritesheet Character Generator
-=============================================
+# LPC Spritesheet Character Generator
 
-LPC SPritesheet sources compiled into individual JSON objects. Made because was it was needed to generate dynamic character setup in Phaser JS.
+LPC SPritesheet sources compiled into individual JSON objects. Made because it was needed to generate dynamic character setup in Phaser JS for a hobby project.
 
 See `compile-types.js` that was used for the original repo to parse "sheet_definitions" directory into gendered references or an accessory item.
 

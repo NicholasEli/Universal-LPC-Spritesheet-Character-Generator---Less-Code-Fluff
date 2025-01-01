@@ -25,7 +25,7 @@ fs.readdir(folder, (err, files) => {
 			});
 		}
 
-		if (obj.layer_1 && obj.layer_1.male) {
+		if (obj.layer_1 && obj.layer_1.female) {
 			if (!TYPES[type].FEMALE) TYPES[type].FEMALE = {};
 
 			obj.variants.forEach((variant) => {
